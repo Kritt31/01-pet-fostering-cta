@@ -85,3 +85,24 @@
   font-size: 1.2em; /* Slightly larger text for readability */
   line-height: 1.5; /* Add spacing between lines */
 }
+
+/* Style for the site footer */
+.site-footer {
+  background-color: #006064; /* Dark teal background for consistency */
+  color: white; /* White text for readability */
+  text-align: center; /* Center-align text */
+  padding: 30px 20px; /* Add spacing around the footer */
+  font-family: Arial, sans-serif; /* Consistent font with the rest of the page */
+}
+
+/* Style for the footer heading */
+.site-footer h2 {
+  font-size: 1.8em; /* Prominent heading size */
+  margin-bottom: 15px; /* Space below the heading */
+}
+
+/* Style for the footer text */
+.site-footer p {
+  font-size: 1em; /* Standard text size */
+  margin: 5px 0; /* Add small spacing between lines */
+}
