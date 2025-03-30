@@ -1,0 +1,87 @@
+/* Style for the CTA banner */
+.cta-banner {
+  background: linear-gradient(rgba(0, 96, 100, 0.6), rgba(0, 96, 100, 0.6)), url('img/cta-bg.jpg') no-repeat center center; /* Blend teal overlay with image */
+  background-size: cover; /* Ensure the image covers the entire banner */
+  color: #ffffff; /* Change text color to white for better contrast */
+  text-align: center; /* Center-align text */
+  padding: 100px 20px; /* Increase padding to make the section taller */
+  font-family: Arial, sans-serif; /* Modern, easy-to-read font */
+}
+
+/* Style for the main heading */
+.cta-banner h1 {
+  font-size: 3.5em; /* Large, prominent heading */
+  margin: 0 0 20px; /* Remove top margin and keep space below the heading */
+}
+
+/* Style for the description text */
+.cta-banner p {
+  font-size: 1.2em; /* Slightly larger text for readability */
+  margin-bottom: 30px; /* Space below the description */
+}
+
+/* Style for the call-to-action button */
+.cta-button {
+  background-color: #0288d1; /* Bright blue button for attention */
+  color: white; /* White text for contrast */
+  text-decoration: none; /* Remove underline from the link */
+  padding: 15px 30px; /* Add padding for a button-like appearance */
+  border-radius: 5px; /* Rounded corners for a modern look */
+  font-size: 1em; /* Standard font size */
+}
+
+/* Add hover effect for the button */
+.cta-button:hover {
+  background-color: #01579b; /* Darker blue for hover effect */
+}
+
+/* Style for the site header */
+.site-header {
+  background-color: #006064; /* Dark teal background for contrast */
+  color: white; /* White text for readability */
+  text-align: center; /* Center-align text */
+  padding: 20px 0; /* Add spacing around the header */
+  font-family: Arial, sans-serif; /* Consistent font with the banner */
+}
+
+/* Style for the header text */
+.site-header h1 {
+  font-size: 1.8em; /* Slightly smaller than the CTA heading */
+  margin: 0; /* Remove default margin */
+}
+
+/* Style for the info section */
+.info-section {
+  display: flex; /* Use flexbox for simple column layout */
+  justify-content: center; /* Center the content */
+  align-items: center; /* Center items vertically */
+  padding: 50px 20px; /* Padding for spacing */
+  background-color: #f0f4f8; /* Light background for contrast */
+}
+
+/* Style for the image */
+.info-section img {
+  width: 400px;
+  max-width: 100%; /* Ensure image is responsive */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 30px; /* Space between image and text */
+  border-radius: 15px;
+}
+
+/* Style for the text */
+.info-section .info-text {
+  max-width: 600px; /* Limit text width of the text container */
+  
+}
+
+/* Style for the heading in the info section */
+.info-section h2 {
+  font-size: 2em; /* Make the heading prominent */
+  margin-bottom: 15px; /* Add space below the heading */
+}
+
+/* Style for the paragraph in the info section */
+.info-section p {
+  font-size: 1.2em; /* Slightly larger text for readability */
+  line-height: 1.5; /* Add spacing between lines */
+}
